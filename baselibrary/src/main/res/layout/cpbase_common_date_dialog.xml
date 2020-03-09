@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_rootLinearLayout_bg_date_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_titleText_bg_date_dialog"
+        android:paddingLeft="@dimen/common_titleText_padding_l_date_dialog"
+        android:paddingTop="@dimen/common_titleText_padding_tb_date_dialog"
+        android:paddingBottom="@dimen/common_titleText_padding_tb_date_dialog"
+        android:text="@string/cpbase_common_titleText_date_dialog"
+        android:textColor="@color/common_titleText_textcolor_date_dialog"
+        android:textSize="@dimen/common_font_titleText_date_dialog"
+        android:visibility="gone" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <DatePicker
+                android:id="@+id/datePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner" />
+
+            <TimePicker
+                android:id="@+id/timePicker"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

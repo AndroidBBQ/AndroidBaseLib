@@ -1,0 +1,96 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--主题，没有actionbar-->
+    <style name="AppCompatTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarStyle">@style/actionbarstyle</item>
+        <item name="toolbarStyle">@style/toolbarStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!--解决使用v7包下的ActionBar左右侧边出现黑色空白的问题-->
+    <style name="actionbarstyle" parent="Widget.AppCompat.ActionBar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+    </style>
+    <!--解决使用v7包下的ToolBar左右侧边出现黑色空白的问题-->
+    <style name="toolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+    </style>
+
+    <!--这里添加了parent，这里前辈留下了坑，没有parent造成顶部状态栏不沉浸-->
+    <style name="AppCompatTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppCompatTheme.FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+
+    <style name="PopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/cpbase_ani_in</item>
+        <item name="android:windowExitAnimation">@anim/cpbase_ani_out</item>
+    </style>
+
+    <!-- PopupWindow窗口淡入淡出动画 -->
+    <style name="PopupDownAnimation">
+        <item name="android:windowExitAnimation">@anim/cpbase_out_to_button</item>
+    </style>
+    <!--定义的进度条-->
+    <style name="DefineprogressBarStyleSmall" parent="android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/cpbase_progressbar_authentication</item>
+        <item name="android:minWidth">110dp</item>
+        <item name="android:maxWidth">110dp</item>
+        <item name="android:minHeight">110dp</item>
+        <item name="android:maxHeight">110dp</item>
+    </style>
+
+    <!--对话框-->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <!-- 自定义仿IOS的AlertDialog的样式 -->
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!--    从底部弹出对话框-->
+    <style name="BottomDialogTheme" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 遮罩层 -->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+    <!-- dialog的动画 -->
+    <style name="main_menu_animStyle">
+        <item name="android:windowEnterAnimation">@anim/cpbase_dialog_in_aim</item>
+        <item name="android:windowExitAnimation">@anim/cpbase_dialog_out_aim</item>
+    </style>
+</resources>

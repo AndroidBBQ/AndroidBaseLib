@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.lancoo.cpk12.baselibrary.view.AutoBgImageView
+        android:id="@+id/ivActionBarLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:padding="@dimen/dp_5"
+        android:scaleType="centerInside"
+        android:src="@drawable/cpbase_real_back" />
+
+    <TextView
+        android:id="@+id/tvActionbarLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_8"
+        android:textColor="@color/cpbase_color_white"
+        android:textSize="@dimen/sp_15"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvActionBarCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:maxLength="15"
+            android:maxLines="1"
+            android:text="标题"
+            android:textColor="@color/cpbase_color_white"
+            android:textSize="@dimen/sp_18" />
+
+        <ImageView
+            android:id="@+id/ivActionBarCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/cpbase_arrow_down"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <com.lancoo.cpk12.baselibrary.view.AutoBgImageView
+            android:id="@+id/ivActionBarSetting"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/cpbase_selector"
+            android:scaleType="centerInside"
+            android:src="@drawable/cpbase_main_me_setting"
+            android:visibility="gone" />
+
+
+        <com.lancoo.cpk12.baselibrary.view.AutoBgImageView
+            android:id="@+id/ivActionBarRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/dp_10"
+            android:scaleType="centerInside"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvActionBarRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawablePadding="@dimen/dp_5"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:maxLength="8"
+            android:paddingRight="@dimen/dp_10"
+            android:textColor="@color/cpbase_color_white"
+            android:textSize="@dimen/sp_15"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvMultiAllChoiceActionBarRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/cpbase_selector"
+            android:drawableLeft="@drawable/cpbase_multi_file_all_choice_not_select"
+            android:drawablePadding="@dimen/dp_5"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_10"
+            android:text="@string/cpbase_personal_resshare_multi_file_all_choice"
+            android:textColor="@color/cpbase_color_white"
+            android:textSize="@dimen/sp_15"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23a1fa</color>
+    <color name="colorPrimaryDark">#23a1fa</color>
+    <color name="colorAccent">#23a1fa</color>
+    <color name="news_base_focus_color">#cc2884ec</color>
+    <color name="cpbase_base_color">#2884ec</color>
+    <color name="color_2f000000">#2f000000</color>
+    <color name="cpbase_color_white">#ffffff</color>
+    <color name="cpbase_color_6D6D6D">#6D6D6D</color>
+    <color name="cpbase_color_7FB2B2B2">#7FB2B2B2</color>
+    <color name="cpbase_color_6F6F6F">#6F6F6F</color>
+    <color name="cpbase_color_5C5C5C">#5C5C5C</color>
+    <color name="cpbase_color_EDEDED">#EDEDED</color>
+
+
+    <color name="cpbase_hint_color">#b8b8b8</color>
+    <color name="cpbase_text_color">#252525</color>
+
+    <color name="cpbase_top_line_color">#f2f2f2</color>
+    <color name="cpbase_cancel_text_color">#989898</color>
+    <color name="cpbase_submit_text_color">#0099ff</color>
+    <color name="cpbase_picker_bg_color">#ffffff</color>
+    <color name="cpbase_picker_shade_color">#e5e5e5</color>
+</resources>

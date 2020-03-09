@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- common -->
+    <string name="cpbase_download_no_network">当前非wifi环境，是否继续下载？</string>
+    <string name="cpbase_request_error_premission">！非法请求</string>
+    <string name="cpbase_request_error_value">！参数错误</string>
+    <string name="cpbase_sending">发送中&#8230;</string>
+    <string name="cpbase_finish">完成</string>
+    <string name="cpbase_sure">确认</string>
+    <string name="cpbase_cancel">取消</string>
+    <string name="cpbase_hint">提示</string>
+    <string name="cpbase_no_data">暂无数据</string>
+    <string name="cpbase_personal_resshare_multi_file_all_choice">全选</string>
+    <string name="cpbase_set_clear_chat_cache">清除所有缓存</string>
+    <!-- download -->
+    <string name="cpbase_download_isdownloading">正在下载中，请稍等</string>
+    <string name="cpbase_download_finish">下载完成，是否立即打开？</string>
+
+    <string name="cpbase_click_refresh">点击刷新</string>
+    <string name="cpbase_pull_refresh">下拉刷新</string>
+    <string name="cpabse_network_timeout">服务器连接超时</string>
+    <string name="cpbase_cacel_button">取消</string>
+    <string name="cpbase_sure_button">确定</string>
+
+    <!-- common_date_dialog.xml -->
+    <string name="cpbase_common_titleText_date_dialog">选择时间</string>
+    <string name="cpbase_common_cancelButton_date_dialog">取消</string>
+    <string name="cpbase_common_confirmButton_date_dialog">确定</string>
+
+    <string name="cpbase_toast_network_no_network">网络连接失败！</string>
+    <string name="cpbase_toast_network_timeout">服务器连接超时！</string>
+    <string name="cpbase_toast_networdk_error">网络出现错误！</string>
+    <string name="cpbase_empty_network_no_network">网络连接失败</string>
+    <string name="cpbase_empty_network_timeout">服务器连接超时</string>
+    <string name="cpbase_empty_networdk_error">网络出现错误</string>
+</resources>
