@@ -24,4 +24,6 @@ dependencies {
     implementation rootProject.ext.dependencies.appcompatV7
     //添加框架
     api rootProject.ext.dependencies.constraint
+    
+    implementation project(':baselibrary')
 }

@@ -281,6 +281,25 @@ public class BaseActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * 设置右边设置的icon
+     */
+    public void setRightSettingIcon(@DrawableRes int rightIcon) {
+        if (toolbar != null) {
+            AutoBgImageView ivActionbarRight = (AutoBgImageView) toolbar.findViewById(R.id.ivActionBarSetting);
+            ivActionbarRight.setVisibility(View.VISIBLE);
+            ivActionbarRight.setBackgroundResource(rightIcon);
+        }
+    }
+
+    public void setRightSettingIconClickListener(OnClickListener listener) {
+        if (toolbar != null) {
+            AutoBgImageView ivActionbarRight = (AutoBgImageView) toolbar.findViewById(R.id.ivActionBarSetting);
+            ivActionbarRight.setVisibility(View.VISIBLE);
+            ivActionbarRight.setOnClickListener(listener);
+        }
+    }
+
     public void setRightText(String text, OnClickListener listener) {
         if (toolbar != null) {
             TextView tvActionBarRight = toolbar.findViewById(R.id.tvActionBarRight);
