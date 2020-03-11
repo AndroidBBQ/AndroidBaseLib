@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.lancoo.cpk12.baselibrary.base.BaseActivity;
+import com.lancoo.cpk12.cplibrary.base.BaseActivity;
 
 
 public class MainActivity extends BaseActivity {

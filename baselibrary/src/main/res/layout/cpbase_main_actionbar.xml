@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.lancoo.cpk12.baselibrary.view.AutoBgImageView
+    <com.lancoo.cpk12.cplibrary.view.AutoBgImageView
         android:id="@+id/ivActionBarLeft"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -60,7 +60,7 @@
         android:layout_centerVertical="true"
         android:orientation="horizontal">
 
-        <com.lancoo.cpk12.baselibrary.view.AutoBgImageView
+        <com.lancoo.cpk12.cplibrary.view.AutoBgImageView
             android:id="@+id/ivActionBarSetting"
             android:layout_width="@dimen/dp_25"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             android:visibility="gone" />
 
 
-        <com.lancoo.cpk12.baselibrary.view.AutoBgImageView
+        <com.lancoo.cpk12.cplibrary.view.AutoBgImageView
             android:id="@+id/ivActionBarRight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

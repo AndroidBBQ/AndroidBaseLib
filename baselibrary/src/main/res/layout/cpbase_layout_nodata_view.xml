@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <com.lancoo.cpk12.baselibrary.view.EmptyLayout
+    <com.lancoo.cpk12.cplibrary.view.EmptyLayout
         android:id="@+id/emptyLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
